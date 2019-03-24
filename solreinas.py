@@ -3,7 +3,6 @@
 def problema(solucion,fila,n):
 	if fila>=n:                             # si la fila es mayor que n, entonces devolvemos falso
 		return False
-	#solucion.append(0)
 	exito = False                            # inicializamos exito a False
 	
 	while True:
